@@ -12,12 +12,10 @@ a Terracotta Server Array.
 The repository contains 2 projects as listed below.
 
 1. bigmemory-hadoop :
-
-		This project implements custom Hadoop Map-Reduce classes required which are required to publish output of map-reduce program into Big Memory Max.
+		This project implements custom Hadoop Map-Reduce classes required which are required to publish output of 		map-reduce program into Big Memory Max.
 		
 2. bigmemory-wordcount:
-
-	This project demonstrates an word count example  using bigmemory-hadoop connector where result of map-reduce job is published into BigMemory Max at runtime.
+	This project demonstrates an word count example  using bigmemory-hadoop connector where result of map-reduce job 	is published into BigMemory Max at runtime.
 
 
 ## How to build:
