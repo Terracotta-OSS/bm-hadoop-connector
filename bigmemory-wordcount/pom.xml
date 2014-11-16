@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.terracotta.bigmemory.hadoop.wordcount</groupId>
+    <artifactId>bigmemory-wordcount</artifactId>
+    <version>0.2</version>
+    <packaging>jar</packaging>
+
+    <name>bigmemory-wordcount</name>
+    <url>http://www.terracotta.org</url>
+    <parent>
+        <groupId>org.terracotta.bigmemory.hadoop</groupId>
+        <artifactId>bigmemory-hadoop-parent</artifactId>
+        <version>0.2-SNAPSHOT</version>
+        <relativePath>../</relativePath>
+    </parent>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-core</artifactId>
+            <version>${hadoop.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.terracotta.bigmemory.hadoop</groupId>
+            <artifactId>bigmemory-hadoop</artifactId>
+            <version>${bigmemory.hadoop.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.terracotta.bigmemory</groupId>
+            <artifactId>bigmemory</artifactId>
+            <version>${bigmemory.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.ehcache</groupId>
+            <artifactId>ehcache-ee</artifactId>
+            <version>${ehcache-ee.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.terracotta</groupId>
+            <artifactId>terracotta-toolkit-runtime-ee</artifactId>
+            <version>${toolkit.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-jdk14</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+    </dependencies>
+</project>
