@@ -85,7 +85,7 @@
         <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
-        <hadoop.version>0.20.2-cdh3u5</hadoop.version>
+        <hadoop.version>3.2.3</hadoop.version>
         <slf4j.version>1.4.3</slf4j.version>
       </properties>
       <dependencies>
