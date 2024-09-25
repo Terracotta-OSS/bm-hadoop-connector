@@ -114,7 +114,7 @@
         <activeByDefault>false</activeByDefault>
       </activation>
       <properties>
-        <hadoop.version>2.0.0-cdh4.3.0</hadoop.version>
+        <hadoop.version>3.4.0</hadoop.version>
         <hadoop2mr1.version>2.0.0-mr1-cdh4.3.0</hadoop2mr1.version>
         <slf4j.version>1.4.3</slf4j.version>
       </properties>
